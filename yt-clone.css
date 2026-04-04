@@ -1,0 +1,138 @@
+body{
+    margin:0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top:0;
+} 
+
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    margin-right: 340px;
+}
+
+.hamburger{
+    width: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.yt-logo {
+    width: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.middle-section{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 340px;
+}
+
+.search {
+    height: 30px;
+    width: 350px;
+    padding-left: 10px;
+}
+
+.search-icon {
+    width: 25px;
+}
+
+.search-icon-div{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: -1px;
+    margin-right: 8px;
+    background-color: rgba(247, 247, 247);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.search-icon-div:hover{
+    background-color: rgba(239, 239, 239);
+}
+
+.voice-search-icon-div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247);
+    padding-left: 13px;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.voice-search-icon {
+    width: 25px;
+}
+
+.right-section {
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.upload-div{
+    position: relative;
+}
+.upload-icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+.tool-tip {
+    position:absolute;
+    top: 40px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    opacity: 0;
+}
+
+.upload-div:hover .tool-tip {
+    opacity: 1;
+}
+
+.yt-apps-icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+.notifications-div {
+    position: relative;
+}
+
+.notifications-icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+.notification-count {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 2px 5px;
+}
+.profile-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 12.5px;
+    cursor: pointer;
+}
