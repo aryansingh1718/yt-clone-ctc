@@ -7,6 +7,7 @@ body{
     align-items: center;
     position:fixed;
     top:0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 } 
 
 .left-section {
@@ -34,7 +35,7 @@ body{
     align-items: center;
     margin-right: 340px;
 }
-
+    
 .search {
     height: 30px;
     width: 350px;
@@ -124,7 +125,7 @@ body{
     position: absolute;
     top: -4px;
     right: -4px;
-    background-color: red;
+    background-color: rgba(204, 0, 0);
     color: white;
     border-radius: 50%;
     font-size: 10px;
@@ -135,4 +136,39 @@ body{
     height: 36px;
     border-radius: 12.5px;
     cursor: pointer;
+}
+
+.sidebar{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    top: 50px;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+}
+
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar-link:hover {
+    background-color: rgba(238, 238, 238);
+}
+
+.home-icon, .explore-icon, .subscriptions-icon, .library-icon, .originals-icon, .yt-music-icon {
+    width: 25px;
+}
+
+.sidebar-text {
+    font-size: 12px;
+    margin-top: 5px;
 }
